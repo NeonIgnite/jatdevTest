@@ -286,7 +286,10 @@ a {
   font-weight: 600;
   letter-spacing: 2px;
 }
-
+.mil-up{
+  color:#4F5053;
+  opacity: 0.4;
+}
 /* -------------------------------------------
 
 button
@@ -1773,20 +1776,26 @@ reviews
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items:center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  /* margin-bottom: 30px; */
+  -ms-flex-align: center;
+  align-items: center;
+}
+.mil-review .mil-review-top .product-img{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
 }
 .mil-review .mil-review-top .mil-avatar {
   margin-right: 30px;
   width: 120px;
-  height: 120px;
+  height: 90px;
   /* border-radius: 50%; */
   object-fit: contain;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   /* -o-object-fit: cover;
      object-fit: cover; */
   -o-object-position: top;
@@ -1800,7 +1809,7 @@ reviews
 }
 .mil-review.mil-center .mil-review-top .mil-avatar {
   margin-right: 0;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .mil-reviews-slider-frame {
