@@ -1776,14 +1776,17 @@ reviews
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .mil-review .mil-review-top .mil-avatar {
   margin-right: 30px;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   /* border-radius: 50%; */
   object-fit: contain;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   /* -o-object-fit: cover;
      object-fit: cover; */
   -o-object-position: top;
